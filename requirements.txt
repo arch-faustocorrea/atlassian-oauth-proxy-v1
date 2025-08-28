@@ -1,0 +1,53 @@
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# HTTP client for OAuth and proxy requests
+httpx==0.25.2
+
+# Authentication and security
+pyjwt[crypto]==2.8.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Configuration management
+pydantic-settings==2.0.3
+python-dotenv==1.0.0
+
+# Database (optional for token storage)
+sqlalchemy==2.0.23
+alembic==1.12.1
+aiosqlite==0.19.0
+
+# Caching
+redis==5.0.1
+aioredis==2.0.1
+
+# Monitoring and logging
+prometheus-client==0.19.0
+structlog==23.2.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx-mock==0.10.0
+factory-boy==3.3.0
+
+# Code quality
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
+pre-commit==3.5.0
+
+# Development tools
+watchdog==3.0.0
+
+# Production extras
+gunicorn==21.2.0
+
+# Type stubs
+types-redis==4.6.0.11
+types-requests==2.31.0.10
